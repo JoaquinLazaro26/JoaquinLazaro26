@@ -67,11 +67,10 @@ jQuery(document).ready(function($) {
       
         })
 
-
-
-        $(".pop-button").click(function () {
-            $(".pop").fadeIn(300);
-            
+        let a=document.getElementById('enlace');
+        a.addEventListener('click',function (event) {
+        event.preventDefault(); //esto cancela el comportamiento del click
+        setTimeout(()=> location.href="https://api.whatsapp.com/send/?phone=51954901024&text&type=phone_number&app_absent=0",0);
         });
 
         $(".pop > span").click(function () {

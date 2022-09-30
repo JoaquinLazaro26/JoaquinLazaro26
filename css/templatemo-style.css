@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-506-tinker
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Roboto', arial, sans-serif
 }
 
 body {
@@ -25,6 +25,27 @@ p {
 	color: #7a7a7a;
 	font-size: 14px;
 	line-height: 24px;
+}
+
+.btn-wsp{
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	bottom: 30px;
+	right: 30px;
+	background: #0df053;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+	z-index: 100;
+}
+.btn-wsp:hover{
+	text-decoration: none;
+	color: #0df053;
+	background: #fff;
 }
 
 .parallax-content {
@@ -61,7 +82,7 @@ p {
 
 .pop-button h4 {
 	display: inline-block;
-	background-color: #33c1cf;
+	background-color: #2D3192;
 	font-size: 13px!important;
 	padding: 12px 18px;
 	color: #fff;
@@ -227,7 +248,7 @@ bootstrap.min.css:5
 
 .baner-content .text-content h2 span {
 	font-weight: 700;
-	color: #33c1cf;
+	color: #2D3192;
 }
 
 .baner-content .text-content h2 em {
@@ -237,7 +258,7 @@ bootstrap.min.css:5
 }
 
 .baner-content .text-content p {
-	color: #0E2A55;
+	color: #fff;
 	font-size: 16px;
 	line-height: 24px;
 	padding: 0px 25%;
@@ -332,10 +353,10 @@ bootstrap.min.css:5
 }
 
 #portfolio .section-heading {
-	padding-top: 200px;
+	padding-top: 107px;
 	padding-bottom: 200px;
-	background-color: #33c1cf;
-	height: 732px;
+	background-color: #2D3192;
+	height: 644px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
@@ -532,7 +553,10 @@ bootstrap.min.css:5
 }
 
 #contact-us {
-	background-color: #596065;
+	background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	text-align: center;
 	padding: 80px 0px;
 }
