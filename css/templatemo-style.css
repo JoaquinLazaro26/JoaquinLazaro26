@@ -27,6 +27,10 @@ p {
 	line-height: 24px;
 }
 
+.image p{
+	text-align: center;
+}
+
 .btn-wsp{
 	position: fixed;
 	width: 55px;
@@ -356,7 +360,7 @@ bootstrap.min.css:5
 	padding-top: 107px;
 	padding-bottom: 200px;
 	background-color: #2D3192;
-	height: 644px;
+	height: 740px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
@@ -788,14 +792,14 @@ footer .connect-us ul li {
 
 footer .connect-us ul li a {
 	display: inline-block;
-	width: 28px;
-	height: 28px;
-	line-height: 28px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
 	text-align: center;
 	background-color: #fff;
 	border-radius: 50%;
 	color: #373a3c;
-	font-size: 15px;
+	font-size: 19px;
 	transition: all 0.3s;
 }
 footer .connect-us ul li a:hover {
@@ -810,7 +814,6 @@ footer .connect-us ul li a:hover {
 	.baner-content .text-content p {
 		padding: 0px 15%;
 	}
-
 
 	#about .service-item {
 		margin-bottom: 80px;
