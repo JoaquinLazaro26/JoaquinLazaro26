@@ -299,7 +299,7 @@ bootstrap.min.css:5
 #about .service-item h4 {
 	margin-bottom: 30px;
 	margin-top: 45px;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 1px;
@@ -314,6 +314,8 @@ bootstrap.min.css:5
 #about .service-item p {
 	color: #fff;
 	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 #about .service-item .primary-blue-button {
@@ -360,13 +362,13 @@ bootstrap.min.css:5
 	padding-top: 107px;
 	padding-bottom: 200px;
 	background-color: #2D3192;
-	height: 822px;
+	height: 1022px;
 	margin-left: -100vh;
 	padding-left: 92vh;
 }
 
 #portfolio .project-item {
-	margin: 0px -16px;
+	margin: 0px -10px;
 }
 
 #portfolio .section-heading h4 {
@@ -824,7 +826,7 @@ footer .connect-us ul li a:hover {
 		padding-top: 100px;
 		padding-bottom: 100px;
 		background-color: #2D3192;
-		height: 505px;
+		height: 620px;
 		margin-left: -15px;
 		padding-left: 0vh;
 		margin-right: -15px;
