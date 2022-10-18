@@ -293,7 +293,7 @@ bootstrap.min.css:5
 	line-height: 104px;
 	border: 3px solid #fff;
 	border-radius: 50%;
-	background-color: #f7c552;
+	background-color: #0d5580;
 }
 
 #about .service-item h4 {
@@ -360,9 +360,9 @@ bootstrap.min.css:5
 	padding-top: 107px;
 	padding-bottom: 200px;
 	background-color: #2D3192;
-	height: 740px;
+	height: 822px;
 	margin-left: -100vh;
-	padding-left: 100vh;
+	padding-left: 92vh;
 }
 
 #portfolio .project-item {
