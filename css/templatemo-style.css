@@ -297,6 +297,9 @@ bootstrap.min.css:5
 }
 
 #about .service-item h4 {
+	border-radius: 15px;
+	background-color: #0d5580;
+	padding: 5px 0px;
 	margin-bottom: 30px;
 	margin-top: 45px;
 	font-size: 20px;
