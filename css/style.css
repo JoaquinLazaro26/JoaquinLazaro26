@@ -2867,7 +2867,7 @@ footer {
 	transition: all 0.3s ease-in-out;
 }
 
-.social-icons ul li a:hover {
+.social-icons ul li a:hover,.social-icons ul li a svg:hover {
 	color:#FFF;
 }
 @media (max-width: 768px) {
