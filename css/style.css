@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
 
-
 .resalted {
 	color: orange;
 }
@@ -884,7 +883,7 @@ section {
 }
 
 .slider-overlay {
-	background:url("../images/pattern.png") repeat rgba(0, 0, 0, .4);
+	/*background:url("../images/pattern.png") repeat rgba(0, 0, 0, .4);*/
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2870,7 +2869,7 @@ footer {
 .social-icons ul li a:hover,.social-icons ul li a svg:hover {
 	color:#FFF;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.container-fullwidth {
 	  flex-direction: column; /* Cambia la dirección de los elementos a columna */
 	  align-items: center; /* Centra los elementos horizontalmente */
@@ -2885,7 +2884,11 @@ footer {
 	  width: 100%; /* Ocupa todo el ancho disponible en dispositivos móviles */
 	}
   }
-
+  @media (max-width: 768px){
+	.responsive{
+		width: 80%;
+	}
+}
  @media (min-width: 992px) and (max-width: 1024px) {
 	 
 .navbar-right {

@@ -4,7 +4,7 @@
 /*------------------------------*/
 
 
- $(window).load(function() {
+ 	$(window).load(function() {
 	$(".loader-item").delay(500).fadeOut();
 	$("#pageloader").delay(1000).fadeOut("slow");
 	});
