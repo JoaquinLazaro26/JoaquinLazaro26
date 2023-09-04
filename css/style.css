@@ -30,7 +30,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
-	color: rgb(226, 163, 46);
+	color: orange;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
