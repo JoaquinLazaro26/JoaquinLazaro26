@@ -1082,8 +1082,8 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav > li.active {
-    border: 2px solid #7EC13F;
-    background: #7EC13F;
+    border: 2px solid orange;
+    background: orange;
 }
 
 .tab-content-main {
@@ -1103,7 +1103,7 @@ html[xmlns] .slides {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background: #7EC13F ;
+	background: orange ;
 	color: #FFF;
 	text-align: center;
 	line-height: 35px;
@@ -1142,7 +1142,7 @@ html[xmlns] .slides {
 	font-size:20px;
 	border-radius:0;
 	opacity:1;
-	background:#7EC13F;
+	background:orange;
 	position: absolute;
 	margin: 0;
 }
@@ -1494,8 +1494,8 @@ ul.timeline {
 
 .filter.active, .filter:hover {
 	color:#FFF;
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:orange;
+	border-color:orange;
 }
 
 .work-main {
@@ -2097,8 +2097,8 @@ ul.timeline {
 }
 
 #testimonials .owl-controls .owl-page.active span {
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:orange;
+	border-color:orange;
 }
 
 /*-----------------------------------------------------------------*/

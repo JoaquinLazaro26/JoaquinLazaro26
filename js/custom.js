@@ -4,7 +4,7 @@
 /*------------------------------*/
 
 
- 	$(window).load(function() {
+ $(window).load(function() {
 	$(".loader-item").delay(500).fadeOut();
 	$("#pageloader").delay(1000).fadeOut("slow");
 	});
@@ -307,18 +307,18 @@ $('.popup-image').magnificPopup({
 /*------------------------------*/
 
 
-      (function($) { "use strict";
-		$(".scroll a[href^='#']").on('click', function(e) {
-		   e.preventDefault();
-		   var hash = this.hash;
-		   $('html, body').stop().animate({
-			   scrollTop: $(hash).offset().top}, 2000, 'easeOutExpo');
-		});
-		 })(jQuery);
+(function($) { "use strict";
+$(".scroll a[href^='#']").on('click', function(e) {
+   e.preventDefault();
+   var hash = this.hash;
+   $('html, body').stop().animate({
+	   scrollTop: $(hash).offset().top}, 2000, 'easeOutExpo');
+});
+ })(jQuery);
 
-		$('.collapse ul li a').click(function(){ 
-		$('.navbar-toggle:visible').click();
-	   });	
+$('.collapse ul li a').click(function(){ 
+$('.navbar-toggle:visible').click();
+});	
 
 
 
