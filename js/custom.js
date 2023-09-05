@@ -99,7 +99,7 @@
 
 		$('.home li > img').each(function(){
 			$(this).css('background-image', 'url(' + $(this).attr('src') + ')')
-				   .attr('src', '../images/11.png')
+				   
 				   .height($(window).height());
 		});
 	},0)
