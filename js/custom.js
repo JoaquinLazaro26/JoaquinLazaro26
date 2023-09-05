@@ -98,8 +98,7 @@
 		$('.flex-prev').addClass('fa fa-angle-left').text('');
 
 		$('.home li > img').each(function(){
-			$(this).css('background-image', 'url(' + $(this).attr('src') + ')')
-				   
+			$(this) 
 				   .height($(window).height());
 		});
 	},0)
