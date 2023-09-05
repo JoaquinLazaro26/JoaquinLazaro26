@@ -5,7 +5,7 @@
 
 
  $(window).load(function() {
-	$(".loader-item").delay(500).fadeOut();
+	$(".loader-item").delay(300).fadeOut();
 	$("#pageloader").delay(1000).fadeOut("slow");
 	});
 
@@ -18,7 +18,7 @@
 		$('.home .flexslider').height($(window).height()).flexslider({
 			slideshowSpeed: 5000,
 			after : function(slider){
-				$('.flexslider .big, .flexslider .middle, .flexslider .small').css('opacity',0);
+				$('.flexslider .big, .flexslider .middle, .flexslider .small').css('opacity',1);
 				var next = $('.flex-active-slide', slider);
 				sliderAnimate(next);
 			}
@@ -98,8 +98,7 @@
 		$('.flex-prev').addClass('fa fa-angle-left').text('');
 
 		$('.home li > img').each(function(){
-			$(this) 
-				   .height($(window).height());
+			$(this).height($(window).height());
 		});
 	},0)
 
