@@ -1,7 +1,4 @@
 
-#about-2 iframe{
-	min-height: 400px;
-}
 .resalted {
 	color: orange;
 }
@@ -2044,7 +2041,11 @@ ul.timeline {
 #testimonials {
 	background:url(../images/parallax/testimonials.jpg) no-repeat;
 }
+#testimonials img{
+	width: 100%;
+	height: 600px;
 
+}
 #testimonials {
 	color:#fff;
 	position:relative;
@@ -2870,6 +2871,15 @@ footer {
 .social-icons ul li a:hover,.social-icons ul li a svg:hover {
 	color:#FFF;
 }
+
+@media (min-width: 768px) {
+	 
+	#testimonials img{
+		max-width: 50%;
+		margin-left: 290px;
+	}
+}
+
 @media (max-width: 768px) {
 	.container-fullwidth {
 	  flex-direction: column; /* Cambia la dirección de los elementos a columna */
