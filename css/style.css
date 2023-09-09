@@ -1,4 +1,12 @@
 
+::-webkit-scrollbar{
+	width: 5px;
+	background-color: #485063;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 20px;
+	background-color: rgb(209, 147, 31);
+}
 .resalted {
 	color: orange;
 }
