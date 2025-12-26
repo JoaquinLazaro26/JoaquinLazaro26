@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda's Moving Castle</title>
+    
+    <!-- Librerías Externas -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Dancing+Script:wght@500;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- Tu Hoja de Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Reproductor YouTube Oculto -->
+    <div id="player"></div>
+
+    <!-- PUERTA (Intro) -->
+    <div id="door-overlay" class="door-container">
+        <div id="door-left" class="door-panel"></div>
+        <div id="door-right" class="door-panel"></div>
+        
+        <!-- Sello Mágico -->
+        <div id="magic-lock" class="magic-lock-container">
+            <div class="magic-seal">
+                <div class="seal-ring"></div>
+                <div class="rune">✨</div>
+            </div>
+            <p class="lock-text">UNLOCK THE MAGIC</p>
+        </div>
+    </div>
+
+    <!-- Flash Blanco (Transición) -->
+    <div id="magic-flash"></div>
+
+    <!-- ESCENARIO PRINCIPAL -->
+    <main id="main-stage">
+        <!-- Fondo: Empieza con la clase hearth-bg (puerta.png) -->
+        <div id="bg-layer" class="hearth-bg"></div>
+        
+        <!-- Viñeta oscura y Canvas de Clima -->
+        <div class="vignette"></div>
+        <canvas id="weather-canvas"></canvas>
+
+        <!-- Tarjeta de Texto -->
+        <div class="story-card" id="card">
+            <h2 id="card-title" class="ghibli-title text-4xl mb-2"></h2>
+            <div class="separator"></div>
+            <p id="card-text" class="ghibli-text"></p>
+            <button id="next-btn" class="next-btn">Start Journey</button>
+        </div>
+
+        <!-- RULETA V2.0 -->
+        <div class="hud-container" id="hud">
+            <div class="pointer"></div>
+            <div class="dial-bezel">
+                <div class="dial-inner" id="dial-rotating-part">
+                    <div class="dial-colors"></div>
+                    <div class="dial-overlay"></div>
+                </div>
+                <div class="dial-glare"></div>
+                <div class="dial-center-gem"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- CARTA FINAL -->
+    <div id="final-scene">
+        <div class="letter" id="final-letter">
+            <h3 class="letter-title">My Dearest Amanda,</h3>
+            <p class="letter-body">
+                Just like Howl transports his castle, I wanted to build this little world for us. Through the ice of the North and the warmth of the sun, every color leads me back to you.<br><br>
+                You are the music that makes my life sound better. No matter the 3,000 km between Spain and Norway, our friendship is the strongest magic I know.<br><br>
+                Thank you for being you.
+            </p>
+            <p class="letter-sign">- Joaquín 🇪🇸</p>
+        </div>
+    </div>
+
+    <!-- Tu Script Principal -->
+    <script src="script.js"></script>
+</body>
+</html>
